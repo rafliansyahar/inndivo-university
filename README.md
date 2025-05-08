@@ -1,1 +1,1 @@
-# INI PROJECT MAGANG INNDIVO
+# ui home page

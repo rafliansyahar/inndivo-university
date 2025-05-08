@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Inndivo University",
+      "image": "/assets/images/header/university.png"
+    },
+    {
+      "title": "Inndivo Software",
+      "image": "/assets/images/header/software.png"
+    },
+    {
+      "title": "Inndivo Digital Agency",
+      "image": "/assets/images/header/agency.png"
+    },
+    {
+        "title": "Inndivo Community",
+      "image": "/assets/images/header/Community.png"
+    } 
+  ]
+  

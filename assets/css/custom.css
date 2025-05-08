@@ -1,0 +1,358 @@
+.rounded-sm { border-radius: 1rem; }
+.rounded-md { border-radius: 2rem; }
+
+.fs-sm { font-size: .8rem; }
+
+.pb-50 { padding-bottom: 50px; }
+
+.space-section-content {
+	margin-top: 7rem;
+	margin-bottom: 7rem;
+}
+@media (max-width: 576px) {
+	.space-section-content { 
+		margin-top: 3rem;
+		margin-bottom: .1rem;
+	}
+}
+
+.container-content {
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+@media (max-width: 576px) {
+	.container-content {
+		margin-left: .5rem;
+		margin-right: .5rem;
+	}
+}
+
+/***** Product & Solutions Section *****/
+div.section-product-solution {
+
+	padding-left: 1.6rem;
+	padding-right: 1.6rem;
+	background-image: linear-gradient(to bottom, #252525, #000);
+	min-height: 100vh;
+	border-radius: 3rem;
+}
+div.section-product-solution h1.title {
+	font-size: 4rem;
+	font-weight: 700;
+}
+div.section-product-solution p.desc {
+	font-size: 1.2rem;
+	font-weight: 400;
+  color: #fff;
+  font-family: 'Manrope';
+  line-height: 28px;
+  text-align: justify;
+}
+div.section-product-solution div.badge {
+	background-color: #383838;
+}
+/***** end Product & Solutions Section *****/
+
+/***** Pricing section ****/
+div.section-pricing {
+	margin-bottom: 8rem;
+}
+div.section-pricing h1.title {
+	font-size: 4.2rem;
+	fonnt-weight: 700;
+}
+div.section-pricing p.desc {
+	font-size: 1.2rem;
+	font-weight: 400;
+  color: #676767;
+  font-family: 'Manrope';
+  line-height: 28px;
+  text-align: justify;
+}
+div.section-pricing .faq-item-container {
+	margin-bottom: 1rem;
+}
+div.section-pricing .faq-wrap .faq-item {
+  margin-bottom: 24px;
+  border: 2px solid #E92F05;
+  border-radius: 2rem;
+}
+div.section-pricing .faq-wrap .faq-item:last-child {
+  margin-bottom: 0;
+}
+div.section-pricing .faq-wrap .faq-item.hover-btn {
+  padding: 1px;
+}
+div.section-pricing .faq-wrap .accordion-button {
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 20px;
+  background: #fff;
+  border-radius: 2rem;
+  color: #000;
+  cursor: pointer;
+  transition: 0.45s ease-in-out;
+  padding: 20px 25px;
+  padding-right: 60px;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+div.section-pricing .faq-wrap .accordion-button:hover {
+  color: #fff;
+  background: #E92F05;
+}
+div.section-pricing .faq-wrap .accordion-button:focus {
+  z-index: unset;
+  border-color: unset;
+  outline: 0;
+  background: #E92F05;
+  box-shadow: 5px 7px 40px rgba(145, 145, 145, 0.1);
+}
+div.section-pricing .faq-wrap .accordion-button::after {
+  flex-shrink: 0;
+  width: unset;
+  height: unset;
+  margin-left: auto;
+  background-image: none;
+  background-repeat: unset;
+  background-size: unset;
+  font-family: bootstrap-icons !important;
+  position: absolute;
+  right: 22px;
+  content: "\f4fe";
+  transition: unset;
+/*  font-size: 20px;*/
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.section-pricing .faq-wrap .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  transform: unset;
+  font-family: bootstrap-icons !important;
+  content: "\f2ea";
+  color: var(--white);
+  border-radius: 2rem;
+}
+div.section-pricing .faq-wrap .accordion-button:hover::after {
+  color: var(--white);
+}
+
+div.section-pricing .faq-wrap .accordion-button:not(.collapsed) {
+  box-shadow: 5px 7px 40px rgba(145, 145, 145, 0.1);
+  background: #E92F05;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  font-weight: 600;
+  border-radius: 2rem;
+}
+div.section-pricing .faq-wrap .faq-body {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Manrope';
+  background: #fff;
+  border-top: none;
+  padding: 15px 25px;
+  line-height: 28px;
+  text-align: left;
+  border-radius: 2rem;
+}
+/***** END Pricing section ****/
+
+
+/***** Trusted client section ****/
+div.section-trusted-clients {
+	margin-bottom: 8rem;
+}
+div#radial-section-trusted-clients-background {
+	position: absolute;
+	z-index: -1;
+	top: 8rem;
+	left: -7rem;
+	width: 50rem;
+	min-height: 50rem;
+	background: radial-gradient(circle closest-side, rgba(243, 147, 33, .15), transparent);
+}
+div.section-trusted-clients h1.title {
+	font-size: 4.2rem;
+	fonnt-weight: 700;
+}
+div.section-trusted-clients p.desc {
+	font-size: 1.2rem;
+	font-weight: 400;
+  color: #676767;
+  font-family: 'Manrope';
+  line-height: 28px;
+  text-align: justify;
+}
+div.section-trusted-clients .clients-logo {
+	align-items: center;
+	margin-top: 3rem;
+	padding: 0;
+}
+div.section-trusted-clients .clients-logo .no-padding {
+	padding: 0;
+	margin: 0;
+}
+div.section-trusted-clients .clients-logo img.small {
+	width: 60%;
+}
+div.section-trusted-clients .clients-logo img.normal {
+	width: 80%;
+}
+div.section-trusted-clients .clients-logo img.large {
+	width: 100%;
+}
+div.section-trusted-clients .clients-logo img {
+	width: 100%;
+	filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: gray;  /* For IE 6 - 9 */
+  -webkit-transition: all .6s ease;
+  opacity: 0.5;
+}
+div.section-trusted-clients .clients-logo img:hover {
+	opacity: 1;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+   transform: scale(1.5);
+}
+/***** End Trusted client section ****/
+
+
+/***** What next section ******/
+div#radial-section-what-next-background {
+	position: absolute;
+	z-index: -1;
+	top: 13rem;
+	left: 10rem;
+	width: 60rem;
+	min-height: 60rem;
+	background: radial-gradient(circle closest-side, rgba(243, 147, 33, .15), transparent);
+}
+div.section-what-next {
+	background-image: url("../images/bg/circle.png");
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 92% auto;
+  background-position: center top;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+	padding-top: 4rem;
+	padding-bottom: 9rem;
+	min-height: 50vh;
+	z-index: 1;
+}
+div.section-what-next .title {
+	font-size: 5rem;
+	font-weight: 800;
+}
+div.section-what-next .subtitle {
+	font-size: 1.2rem;
+	font-weight: 400;
+  color: #676767;
+  font-family: 'Manrope';
+  line-height: 28px;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+div.section-what-next .timeline {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+div.section-what-next .timestamp {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding-right: 1rem;
+}
+
+div.section-what-next .status {
+  display: flex;
+  border-top: 4px solid #777777;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+
+div.section-what-next .status p {
+	margin-top: 3rem;
+	padding-right: 1.5rem;
+}
+
+div.section-what-next .status:before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 25px;
+  border: 5px solid #FF7342;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  transition: all 200ms ease-in;
+  box-shadow: 0 0 10px rgba(255, 115, 66, 0.9);
+}
+
+div.section-what-next .status.latest:after {
+  content: '';
+  width: 0; /* Atur lebar menjadi 0 untuk membuat segitiga */
+  height: 0; /* Atur tinggi menjadi 0 untuk membuat segitiga */
+  position: absolute;
+  top: -11px; /* Sesuaikan dengan kebutuhan Anda */
+  right: -5px; /* Sesuaikan dengan kebutuhan Anda */
+  transition: all 200ms ease-in;
+  border-top: 9px solid transparent; /* Sesuaikan dengan kebutuhan Anda */
+  border-bottom: 9px solid transparent; /* Sesuaikan dengan kebutuhan Anda */
+  border-left: 15px solid #777777; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+
+@media (min-device-width: 320px) and (max-device-width: 700px) {
+  div.section-what-next .timeline {
+    list-style-type: none;
+    display: block;
+  }
+
+  div.section-what-next .timeline .li {
+    transition: all 200ms ease-in;
+    display: flex;
+    width: inherit;
+  }
+
+  div.section-what-next .timestamp {
+    width: 100px;
+  }
+
+  div.section-what-next .status:before {
+    left: -8%;
+    top: 30%;
+    transition: all 200ms ease-in;
+  }
+}
+/***** End What next section ******/
+
+
+footer.footer-container h2.need-help {
+	font-size: 2.5rem;
+	font-weight: 100;
+}
+footer.footer-container h1.lets-talk {
+	font-size: 5rem;
+	font-weight: 800;
+}
+footer.footer-container .footer-content {
+	margin-left: 6rem;
+	margin-right: 6rem;
+	padding: 3.5rem;
+	background-color: #fff;
+}
